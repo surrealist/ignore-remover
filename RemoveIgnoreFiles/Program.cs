@@ -56,7 +56,7 @@ namespace RemoveIgnoreFiles {
 
 
       foreach (var folder in d.GetDirectories()) {
-        RemoveIgnores(folder, prefix + "  ");
+        RemoveIgnores(folder, prefix);
       }
     }
   }
